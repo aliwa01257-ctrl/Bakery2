@@ -130,7 +130,7 @@ if st.button("تجهيز الطلب وإرساله عبر واتساب"):
         encoded_message = urllib.parse.quote(message)
 
         # ضع هنا رقم الواتساب الخاص بك مع كود الدولة (مثال رقم ليبي)
-        your_whatsapp_number = "2189XXXXXXXXX"  # عدّلها لرقمك
+        your_whatsapp_number = "218914671709"  # عدّلها لرقمك
 
         wa_link = f"https://wa.me/{your_whatsapp_number}?text={encoded_message}"
 
@@ -139,3 +139,4 @@ if st.button("تجهيز الطلب وإرساله عبر واتساب"):
             f'<a class="wa-button" href="{wa_link}" target="_blank">إرسال الطلب عبر واتساب</a>',
             unsafe_allow_html=True
         )
+
