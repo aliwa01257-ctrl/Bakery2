@@ -1,0 +1,82 @@
+/* ضبط الخط والخلفية العامة */
+html, body, [class*="css"] {
+    font-family: "Tahoma", sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+
+/* خلفية التطبيق */
+body {
+    background-color: #fff7f0;
+}
+
+/* عنوان رئيسي */
+.main-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: #8b4513;
+}
+
+/* عنوان فرعي */
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* عناوين الأقسام */
+.section-title {
+    font-size: 24px;
+    margin: 10px 0 20px;
+    color: #8b4513;
+    font-weight: bold;
+}
+
+/* كروت المنتجات */
+.product-card {
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    border: 1px solid #f1e2d2;
+}
+
+.product-name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.product-price {
+    color: #b5651d;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* نص إرشادي */
+.hint-text {
+    font-size: 13px;
+    color: #777;
+    margin-top: 8px;
+}
+
+/* زر واتساب مخصص */
+.wa-button {
+    display: inline-block;
+    background-color: #25d366;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.wa-button:hover {
+    background-color: #1da855;
+    color: #fff;
+}
